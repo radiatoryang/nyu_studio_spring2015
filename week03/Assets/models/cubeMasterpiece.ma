@@ -1,6 +1,6 @@
 //Maya ASCII 2015 scene
 //Name: cubeMasterpiece.ma
-//Last modified: Wed, Feb 11, 2015 02:02:39 PM
+//Last modified: Thu, Feb 12, 2015 02:42:23 AM
 //Codeset: 1252
 requires maya "2015";
 currentUnit -l centimeter -a degree -t film;
@@ -12,8 +12,8 @@ fileInfo "osv" "Microsoft Windows 8 Home Premium Edition, 64-bit  (Build 9200)\n
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -40.08507795285594 39.014250758720422 -6.2860754154237011 ;
-	setAttr ".r" -type "double3" -40.538352729290928 -1186.600000000052 0 ;
+	setAttr ".t" -type "double3" -42.500033426470679 38.153934997415355 4.9119329351669299 ;
+	setAttr ".r" -type "double3" -39.33835272928917 -1170.6000000000502 -3.0533324942049761e-013 ;
 createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
