@@ -12,6 +12,10 @@ public class CubeSpin : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		// spin
 		transform.Rotate (0f, Time.deltaTime * spinSpeed, 0f );
+
+		// wiggle, will eventually drift, OH WELL
+		transform.Translate ( Random.insideUnitSphere * 0.1f );
 	}
 }

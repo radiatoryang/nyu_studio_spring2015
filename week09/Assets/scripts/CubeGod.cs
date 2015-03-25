@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CubeGod : MonoBehaviour {
 
-	public Transform blueprint; // assign in Inspector
+	public Transform blueprint; // assign in Inspector, make sure this prefab has CubeSpin.cs on it
 	int cubeCountMax = 100;
 	float cubeSpawnRadius = 10f;
 
